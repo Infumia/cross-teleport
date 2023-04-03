@@ -1,9 +1,12 @@
 plugins {
-    id("java")
+    java
 }
 
-group = "tr.com.infumia"
-version = "1.0.0-SNAPSHOT"
+allprojects { group = "tr.com.infumia" }
+
+subprojects {
+    apply<JavaPlugin>()
+}
 
 repositories {
     mavenCentral()

@@ -2,7 +2,10 @@ rootProject.name = "cross-teleport"
 
 include(
   "common",
-  "microservices",
+  "grpc",
+  "grpc:common",
+  "grpc:client",
+  "grpc:server",
   "paper",
   "velocity"
 )
