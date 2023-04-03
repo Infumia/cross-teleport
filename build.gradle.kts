@@ -77,6 +77,7 @@ if (spotlessApply) {
       endWithNewline()
       trimTrailingWhitespace()
       prettier(prettierConfig)
+        .npmInstallCache()
         .config(
           mapOf("parser" to "java", "tabWidth" to 2, "useTabs" to false, "printWidth" to 100),
         )
