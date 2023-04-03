@@ -7,5 +7,5 @@ include(
   "grpc:client",
   "grpc:server",
   "paper",
-  "velocity"
+  "velocity",
 )
